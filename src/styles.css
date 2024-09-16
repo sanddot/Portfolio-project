@@ -1,0 +1,17 @@
+h1 {
+  font-family: "Playfair Display", system-ui;
+  font-weight: 500;
+  font-size: 56px;
+  background-color: azure;
+}
+h3 {
+  font-family: "Montserrat", system-ui;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
