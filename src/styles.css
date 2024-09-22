@@ -38,15 +38,23 @@ h6 {
   margin-bottom: 20px;
 }
 .about-section {
-  padding: 140px 20px;
+  padding: 140px 30px;
 }
 .about-section h1 {
-  font-size: 50px;
-  line-height: 85px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 75px;
 }
 .about-section h2 {
+  color: #272142;
   font-size: 18px;
   font-family: var(--default-font-family);
+}
+.about-section-paragraph {
+  color: #272142;
+  font-size: 16px;
+  line-height: 30px;
+  opacity: 0.8;
 }
 .btn-accent {
   background-color: var(--accent-color);
@@ -112,5 +120,9 @@ h2 {
   .about-section {
     text-align: center;
     padding: 60px 20px;
+  }
+  .about-section h1 {
+    font-size: 50px;
+    line-height: 65px;
   }
 }
