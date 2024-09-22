@@ -16,15 +16,19 @@ h6 {
   font-family: "Playfair Display", system-ui;
   font-weight: 500;
 }
-.hero p {
-  color: #272142;
-  font-size: 24px;
-  font-weight: 400;
+h2 {
+  font-size: 64px;
+  font-weight: 700;
 }
 .hero {
   background: var(--secondary-color);
   text-align: center;
   padding: 140px 20px;
+}
+.hero p {
+  color: #272142;
+  font-size: 24px;
+  font-weight: 400;
 }
 .hero h1 {
   font-size: 86px;
@@ -37,20 +41,34 @@ h6 {
   font-weight: 600;
   margin-bottom: 20px;
 }
-.about-section {
-  padding: 140px 30px;
+.main-section {
+  padding: 140px 20px;
 }
-.about-section h1 {
+.main-section h1 {
   font-size: 60px;
   font-weight: 700;
   line-height: 75px;
 }
-.about-section h2 {
+.main-section h2 {
   color: #272142;
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.about-section-paragraph {
+.main-section h3 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-top: 15px;
+}
+.main-section p {
+  color: #272142;
+  text-align: center;
+  font-size: 14px;
+  line-height: 21px;
+  opacity: 0.8;
+}
+.project-paragraphs {
   color: #272142;
   font-size: 16px;
   line-height: 30px;
@@ -69,20 +87,11 @@ h6 {
   background-color: var(--accent-color);
   color: black;
 }
-h2 {
-  font-size: 64px;
-  font-weight: 700;
-}
 .introduction-paragraphs {
   margin: 60px 20px;
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
-}
-.project-paragraphs {
-  font-size: 16px;
-  line-height: 1.5;
-  opacity: 0.8;
 }
 .project-wrapper {
   margin: 30px 0 0 20px;
@@ -117,11 +126,11 @@ h2 {
     text-align: center;
     margin: 10px 10px;
   }
-  .about-section {
+  .main-section {
     text-align: center;
     padding: 60px 20px;
   }
-  .about-section h1 {
+  .main-section h1 {
     font-size: 50px;
     line-height: 65px;
   }
