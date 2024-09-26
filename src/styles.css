@@ -20,6 +20,30 @@ h2 {
   font-size: 64px;
   font-weight: 700;
 }
+.logo {
+  max-height: 40px;
+}
+nav {
+  padding: 15px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 20px;
+  line-height: 30px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--accent-color);
+}
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -109,6 +133,9 @@ h2 {
   color: black;
 }
 @media (max-width: 576px) {
+  nav a {
+    font-size: 12px;
+  }
   .hero {
     padding: 60px 20px;
   }
@@ -124,6 +151,9 @@ h2 {
   .project-wrapper {
     text-align: center;
     margin: 10px 10px;
+  }
+  .project-wrapper h2 {
+    font-size: 46px;
   }
   .main-section {
     text-align: center;
